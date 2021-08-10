@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
+import logo from "../image/MARCELA YAMUR (1).png";
 
 import "../stylesheets/style.css";
 
-
 const App = () => {
-  
-  
   return (
     <>
-      <h1>portfolio</h1>
+      <img className="logo-my" src={logo} />
     </>
   );
 };
