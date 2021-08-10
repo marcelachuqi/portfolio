@@ -1,13 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import logo from "../image/MARCELA YAMUR (1).png";
-
+import Profile from "./Profile";
+import Education from "./Education";
+import Projects from "./Projects";
 import "../stylesheets/style.css";
 
 const App = () => {
   return (
-    <>
-      <img className="logo-my" src={logo} />
-    </>
+    <body className="landing">
+      <div>
+        <img className="logo-my" src={logo} />{" "}
+      </div>
+      <Profile />
+      <Education />
+      <Projects />
+    </body>
   );
 };
 
