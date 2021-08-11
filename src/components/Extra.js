@@ -2,6 +2,7 @@ import React from "react";
 import yummin from "../image/yumm-in.jpg";
 import ohmyworld from "../image/Original.svg";
 import marcelafoto from "../image/marcelafoto.png";
+import cv from "../image/CV.jpg";
 
 const Extra = () => {
   return (
@@ -28,7 +29,7 @@ const Extra = () => {
         <div className="extra-3">
           <h3 className="extra-title"> </h3>
 
-          <a href="../image/CV MARCELA English (min).pdf">
+          <a href={cv}>
             <img className="marcelafoto" src={marcelafoto} />
           </a>
           <p>More about me! </p>
