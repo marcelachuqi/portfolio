@@ -64,7 +64,7 @@
   padding: 35px;
   margin: 20px;
   width: 300px;
-  background-color: rgb(214, 154, 154);
+  background-color: rgb(174, 102, 80);
   column-gap: 20px;
   width: 900px;
   grid-template-columns: repeat(3, 1fr);
@@ -84,14 +84,20 @@
 .rick-morty,
 .pokemon,
 .netflix {
-  border-radius: 100px;
-  width: 100px;
+  border-radius: 150px;
+  width: 150px;
   transition: 0.5s;
-  border: solid 2px white;
 }
-.yummin,
+.yummin {
+  width: 180px;
+}
 .ohmyworld {
   width: 100px;
+}
+
+.marcelafoto {
+  width: 136px;
+  border-radius: 250px;
 }
 
 .rick-morty:hover,
@@ -104,28 +110,25 @@
   display: flex;
   text-align: center;
   align-items: center;
-
-  background-color: rgba(172, 255, 47, 0.591);
-  margin: 20px;
-  width: 900px;
+  width: 1000px;
   column-gap: 0px;
   color: aliceblue;
 }
 
 .extra-1 {
   width: 250px;
-  background-color: rgb(4, 103, 79);
+  background-color: rgba(4, 103, 78, 0.516);
   padding: 40px;
 }
 
 .extra-2 {
   width: 250px;
   background-color: rgb(48, 132, 138);
-  padding: 42px;
+  padding: 72px;
 }
 
 .extra-3 {
   width: 250px;
-  background-color: rgb(36, 179, 143);
-  padding: 40px;
+  background-color: rgba(36, 179, 143, 0.509);
+  padding: 50px;
 }

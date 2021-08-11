@@ -1,5 +1,5 @@
 import React from "react";
-import rickmorty from "../image/rick_morty.png";
+import rickmorty from "../image/rick_morty.jpeg";
 import pokemon from "../image/pokemon.png";
 import netflix from "../image/netflix.png";
 
