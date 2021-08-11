@@ -1,20 +1,21 @@
 .landing {
-  margin: 20px;
-  color: black;
+  padding: 10px;
+  margin: 30px;
+  color: rgb(57, 57, 57);
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: solid 3px gray;
-  border-radius: 20px;
+  border-radius: 10px;
   font-family: "Quicksand", sans-serif;
 }
 
 .resume {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 7rem 0 7rem;
+  font-weight: 300;
 }
 
 .logo-my {
@@ -22,28 +23,16 @@
   margin: 0;
 }
 
-.profile-emoji {
-}
-
-.education {
+.education,
+.extra {
   display: flex;
   text-align: center;
   align-items: center;
   padding: 20px;
+  margin: 20px;
   width: 900px;
   column-gap: 20px;
   color: aliceblue;
-}
-
-.btn-neon {
-  width: 255px;
-  transition: 0.5s;
-  border-radius: 150px;
-}
-
-.btn-neon:hover {
-  background: #e4e29d;
-  box-shadow: 0 0 10px #e4e29d, 0 0 40px #a945c7, 0 0 80px #a945c7;
 }
 
 .education-1 {
@@ -72,23 +61,71 @@
   display: grid;
   text-align: center;
   align-items: center;
-  padding: 20px;
+  padding: 35px;
+  margin: 20px;
   width: 300px;
-  background-color: rgb(146, 146, 70);
+  background-color: rgb(214, 154, 154);
   column-gap: 20px;
   width: 900px;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   color: aliceblue;
-  border-radius: 25px;
+  border-radius: 15px;
+  font-weight: 300;
+}
+.field,
+.project-title,
+.profile-emoji {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: montserrat alternates;
 }
 
-.rick-morty {
+.rick-morty,
+.pokemon,
+.netflix {
   border-radius: 100px;
-  height: 100px;
+  width: 100px;
   transition: 0.5s;
+  border: solid 2px white;
+}
+.yummin,
+.ohmyworld {
+  width: 100px;
 }
 
-.rick-morty:hover {
-  box-shadow: 0 0 10px #e4d296, 0 0 40px #e4d296, 0 0 80px #e4d296;
+.rick-morty:hover,
+.pokemon:hover,
+.netflix:hover {
+  box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+}
+
+.extra {
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  background-color: rgba(172, 255, 47, 0.591);
+  margin: 20px;
+  width: 900px;
+  column-gap: 0px;
+  color: aliceblue;
+}
+
+.extra-1 {
+  width: 250px;
+  background-color: rgb(4, 103, 79);
+  padding: 40px;
+}
+
+.extra-2 {
+  width: 250px;
+  background-color: rgb(48, 132, 138);
+  padding: 42px;
+}
+
+.extra-3 {
+  width: 250px;
+  background-color: rgb(36, 179, 143);
+  padding: 40px;
 }

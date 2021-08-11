@@ -3,6 +3,7 @@ import logo from "../image/MARCELA YAMUR (1).png";
 import Profile from "./Profile";
 import Education from "./Education";
 import Projects from "./Projects";
+import Extra from "./Extra";
 import "../stylesheets/style.css";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Profile />
       <Education />
       <Projects />
+      <Extra />
     </body>
   );
 };
