@@ -15,8 +15,8 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 44px;
-  height: 44px;
+  width: 60px;
+  height: 60px;
   background-color: rosybrown;
   background-image: url("../image/ico-menu.svg");
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 }
 
 .logo-my {
-  width: 200px;
+  width: 100px;
   margin: 0;
 }
 
@@ -147,6 +147,7 @@
 
 .heroku {
   width: 80px;
+  margin-top: 70px;
 }
 
 .marcelafoto {
@@ -225,4 +226,90 @@
 .footer__year {
   font-size: 14px;
   line-height: 2.14;
+}
+
+/* eleven code animation */
+
+.animation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+  padding-top: 175px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.etiqueta1 {
+  width: 45px;
+  animation-name: left;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+@keyframes left {
+  0% {
+    transform: translatex(0px) translatey(0px);
+  }
+  100% {
+    transform: translatex(-150px) rotate(120deg);
+  }
+}
+
+.nombre-logo {
+  width: 200px;
+  animation-name: intro;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+.logosimple {
+  width: 175px;
+  visibility: hidden;
+  animation-name: final;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+@keyframes final {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-110px);
+    visibility: visible;
+  }
+}
+@keyframes intro {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.etiqueta2 {
+  width: 45px;
+  animation-name: right;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+@keyframes right {
+  0% {
+    transform: translatex(0px) translatey(0px);
+  }
+  100% {
+    transform: translatex(-180px) translatey(0px) rotate(-60deg);
+  }
+}
+.logosimple {
+  width: 130px;
+  position: absolute;
 }
