@@ -7,7 +7,7 @@ import cv from "../image/CV.jpg";
 const Extra = () => {
   return (
     <>
-      <h2 className="field">Extra</h2>
+      {/* <h2 className="field3">More</h2> */}
       <div className="extra">
         <div className="extra-1">
           <h3 className="extra-title"> </h3>
@@ -34,6 +34,27 @@ const Extra = () => {
           </a>
           <p>More about me! </p>
         </div>
+        <div className="extra-4">
+          <h3 className="extra-title"> </h3>
+
+          <p className="soft-skills1">Problem Solving</p>
+          <p className="soft-skills2">Creativity</p>
+          <p className="soft-skills3">Estrategic thinking</p>
+          <p className="soft-skills4">Customer orientation</p>
+          <p className="soft-skills5">Teamwork</p>
+          <p className="soft-skills6">Communication skills</p>
+        </div>
+        <h2 className="resume">
+          "If there is something that describes me, it is the
+          <i> adrenaline </i> to start something new, the
+          <i> commitment </i> to continue it and the
+          <i> resilience </i> to continue despite unfavorable situations. With
+          experience in the management of human capital in multinational
+          companies, redirected to Front-end development, interface design and
+          user experience, restless and in the constant search for new ideas,
+          business orientation, with strategic, creative thinking, resilient and
+          committed"
+        </h2>
       </div>
     </>
   );

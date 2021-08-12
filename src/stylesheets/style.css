@@ -1,38 +1,51 @@
 .landing {
-  padding: 10px;
-  margin: 30px;
+  padding: 0px;
+  margin: 0px;
   color: rgb(57, 57, 57);
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 10px;
   font-family: "Quicksand", sans-serif;
+  background-image: url("../image/brown-paper-texture-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
 }
+
 .menu-icon {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 20px;
   width: 60px;
   height: 60px;
-  background-color: rosybrown;
+  background-color: rgb(209, 247, 152);
   background-image: url("../image/ico-menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 999;
 }
 
-.resume {
-  font-size: 20px;
-  margin: 0 7rem 0 7rem;
-  font-weight: 300;
+.fa-solid {
+  color: rgb(75, 75, 75);
+  margin: 10px 10px 10px 10px;
 }
 
-.logo-my {
-  width: 100px;
-  margin: 0;
+.fa-solid:hover {
+  box-shadow: 0 0 20px greenyellow, 0 0 50px greenyellow, 0 0 90px greenyellow;
+}
+
+.name-title {
+  font-family: montserrat alternates;
+  font-size: 40px;
+  margin: 110px 50px 20px 50px;
+}
+
+.resume {
+  font-size: 20px;
+  margin: 0 7rem 2rem 7rem;
+  font-weight: 300;
 }
 
 .education,
@@ -41,7 +54,7 @@
   text-align: center;
   align-items: center;
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   width: 900px;
   column-gap: 20px;
   color: aliceblue;
@@ -72,53 +85,52 @@
 .section-3 {
   display: flex;
   flex-direction: row;
-
-  width: 90%;
+  width: 100vw;
 }
 .projects {
-  margin: 100px 10px 100px 100px;
+  margin: 50px 20px 100px 200px;
   display: grid;
   text-align: center;
   align-items: center;
-  padding: 55px 55px 55px 10px;
-  background-color: rgb(206, 132, 110);
-  width: 600px;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  color: aliceblue;
-  border-radius: 15px;
+  padding: 55px 55px 55px 55px;
+  background-color: rgba(255, 255, 255, 0.557);
+  width: 400px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
+  border-radius: 20px;
   font-weight: 300;
 }
 .workteam {
-  margin: 100px 100px 100px 10px;
-
-  width: 300px;
-
+  margin: 50px 200px 100px 40px;
+  background-color: rgb(252, 252, 252);
+  width: 400px;
+  height: 600px;
   color: grey;
   border-radius: 20px;
   font-weight: 300;
 }
 
 .profile-emoji {
-  font-size: 25px;
-  font-weight: 600;
-  font-family: montserrat alternates;
+  font-size: 20px;
+  font-weight: 300;
 }
 .field1 {
   position: absolute;
   text-transform: uppercase;
-  margin: 40px 0px 0px 150px;
-  font-size: 25px;
+  margin: 200px 0px 0px 100px;
+  font-size: 20px;
   font-weight: 600;
   font-family: montserrat alternates;
+  transform: rotate(-90deg);
 }
 .field2 {
   position: absolute;
   text-transform: uppercase;
-  margin: 40px 0px 0px 830px;
-  font-size: 25px;
+  margin: 200px 0px 0px 765px;
+  font-size: 20px;
   font-weight: 600;
   font-family: montserrat alternates;
+  transform: rotate(-90deg);
 }
 
 .project-title {
@@ -133,16 +145,15 @@
 .anonimus,
 .random {
   border-radius: 200px;
-  width: 80px;
-  height: 80px;
-  transition: 0.5s;
+  width: 50px;
+  height: 50px;
 }
 
 .yummin {
-  width: 180px;
+  width: 100px;
 }
 .ohmyworld {
-  width: 100px;
+  width: 104px;
 }
 
 .heroku {
@@ -151,43 +162,85 @@
 }
 
 .marcelafoto {
-  width: 136px;
+  width: 96px;
   border-radius: 250px;
 }
 
-.rick-morty:hover,
-.pokemon:hover,
-.netflix:hover,
-.anonimus:hover,
-.random:hover {
-  box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+.field3 {
+  text-transform: uppercase;
+  margin: 50px 0px 0px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: montserrat alternates;
+
+  color: rgb(68, 103, 15);
+}
+
+.extraback {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+  background-color: rgb(247, 255, 253);
+  filter: opacity(0.4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .extra {
   display: flex;
   text-align: center;
   align-items: center;
-  width: 1000px;
   column-gap: 0px;
-  color: aliceblue;
+  width: 80%;
 }
 
 .extra-1 {
-  width: 250px;
-  background-color: rgba(4, 103, 78, 0.516);
-  padding: 40px;
+  width: 400px;
+  background-color: rgb(4, 103, 78);
+  padding: 50px 10px 50px 10px;
 }
 
 .extra-2 {
-  width: 250px;
+  width: 400px;
   background-color: rgb(48, 132, 138);
-  padding: 72px;
+  padding: 50px 20px 50px 20px;
 }
 
 .extra-3 {
-  width: 250px;
-  background-color: rgba(36, 179, 143, 0.509);
-  padding: 50px;
+  width: 400px;
+  background-color: rgb(36, 179, 143);
+  padding: 50px 20px 50px 20px;
+}
+.extra-4 {
+  width: 400px;
+  background-color: rgb(164, 210, 101);
+  padding: 23px 30px 23px 30px;
+  color: green;
+  font-family: montserrat alternates;
+}
+
+.soft-skills1 {
+  font-size: 18px;
+  transform: rotate(-90deg) translateX(-50px) translateY(-100px);
+}
+.soft-skills2 {
+  font-size: 15px;
+  transform: translateX(-10px) translateY(-40px);
+}
+.soft-skills3 {
+  font-size: 10px;
+  transform: translateX(40px) translateY(-30px);
+}
+
+.soft-skills4 {
+  font-size: 17px;
+  transform: translateX(30px) translateY(-20px);
+}
+.soft-skills5 {
+  font-size: 11px;
+  transform: rotate(-90deg) translateX(-30px) translateY(100px);
 }
 .footer {
   width: 100vw;
@@ -235,7 +288,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 250px;
+  margin-left: 260px;
   padding-top: 175px;
   top: 50%;
   left: 50%;
@@ -254,11 +307,12 @@
     transform: translatex(0px) translatey(0px);
   }
   100% {
-    transform: translatex(-150px) rotate(120deg);
+    transform: translatex(-130px) rotate(120deg);
   }
 }
 
 .nombre-logo {
+  margin-left: -80px;
   width: 200px;
   animation-name: intro;
   animation-duration: 15s;
@@ -280,7 +334,7 @@
   }
   100% {
     opacity: 1;
-    transform: translateX(-110px);
+    transform: translateX(-90px);
     visibility: visible;
   }
 }
@@ -306,7 +360,7 @@
     transform: translatex(0px) translatey(0px);
   }
   100% {
-    transform: translatex(-180px) translatey(0px) rotate(-60deg);
+    transform: translatex(-160px) translatey(0px) rotate(-60deg);
   }
 }
 .logosimple {

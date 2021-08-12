@@ -1,0 +1,57 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+  width: 85%;
+  gap: 0.5rem;
+}
+.box-title {
+  color: aliceblue;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-shadow: rgb(191, 176, 176) 0.1em 0.1em 0.2em;
+  word-wrap: break-word;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 30rem;
+  height: 13rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0 2rem 0 2rem;
+}
+
+.box-1 {
+  background-color: rgb(233, 172, 172);
+}
+
+.box-2 {
+  background-color: rgb(250, 128, 114);
+}
+
+.box-3 {
+  background-color: rgb(225, 90, 142);
+}
+.box-4 {
+  background-color: rgb(128, 128, 49);
+}
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover {
+  box-shadow: 0 0 20px rgb(199, 232, 149), 0 0 50px rgb(214, 245, 172),
+    0 0 90px rgb(212, 243, 161);
+}
