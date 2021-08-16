@@ -34,26 +34,28 @@ const KnowMeBetter = () => {
           </a>
           <p>Customized Gift Box</p>
         </div> */}
-
-        <div className="extra-1">
-          <h3 className="extra-title"> </h3>
-          <img className="marcelafoto" src={marcelafoto} />
-
-          <p>Download my resume </p>
-          <a href={cv}>
-            <FontAwesomeIcon icon={faDownload} color="whitesmoke" size="1x" />
-          </a>
+        <div>
+          <div className="extra-1"></div>
         </div>
+
         <div className="extra-2">
-          <h3 className="extra-title">Soft skills </h3>
-
-          <p className="soft-skills1">Problem Solving</p>
-          <p className="soft-skills2">Creativity</p>
-          <p className="soft-skills3">Estrategic thinking</p>
-          <p className="soft-skills4">Customer orientation</p>
-          <p className="soft-skills5">Teamwork</p>
-          <p className="soft-skills6">Communication skills</p>
+          <div>
+            <span className="soft-skills1">Problem Solving</span>
+            <span className="soft-skills2">Creativity</span>
+            <span className="soft-skills3">Estrategic thinking</span>
+            <span className="soft-skills4">Customer orientation</span>
+            <span className="soft-skills5">Teamwork</span>
+            <span className="soft-skills6">Communication skills</span>
+          </div>
         </div>
+        <h3 className="extra-title-1">Download my resume </h3>
+        <a href={cv}>
+          <FontAwesomeIcon
+            icon={faDownload}
+            color="rgb(48, 132, 138)"
+            size="1x"
+          />
+        </a>
       </div>
     </>
   );

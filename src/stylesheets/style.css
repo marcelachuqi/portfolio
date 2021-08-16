@@ -44,8 +44,9 @@
 
 .resume {
   font-size: 20px;
-  margin: 0 7rem 2rem 7rem;
+  margin: 2rem 7rem 2rem 7rem;
   font-weight: 300;
+  text-shadow: rgb(248, 211, 211) 0.1em 0.1em 0.2em;
 }
 
 .education,
@@ -54,7 +55,7 @@
   text-align: center;
   align-items: center;
   padding: 20px;
-  margin: 10px;
+  margin: 40px 10px 0 10px;
   width: 900px;
   column-gap: 20px;
   color: aliceblue;
@@ -160,68 +161,80 @@
   margin-top: 70px;
 }
 
-.marcelafoto {
+/* .marcelafoto {
   width: 120px;
   border-radius: 250px;
   box-shadow: 0 0 10px rgb(199, 232, 149), 0 0 5px rgb(214, 245, 172),
     0 0 5px rgb(212, 243, 161);
-}
+} */
 
 .extra {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   align-items: center;
   column-gap: 0px;
   width: 80%;
-}
-.extra-title {
-  text-transform: uppercase;
-  margin: 10px 0 70px 0;
-  font-family: montserrat alternates;
-  text-shadow: none;
+  background-color: white;
 }
 
 .extra-1 {
-  width: 500px;
+  width: 200px;
   height: 200px;
-  background-color: rgb(4, 103, 78);
-  padding: 30px 10px 100px 10px;
+  background-image: url("../image/marcelafoto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.extra-title-1 {
+  text-transform: uppercase;
+  color: rgb(48, 132, 138);
+  font-family: montserrat alternates;
+  font-size: 20px;
+}
 .extra-2 {
-  width: 500px;
+  width: 700px;
   height: 200px;
-  background-color: rgb(48, 132, 138);
-  text-shadow: rgb(191, 176, 176) 0.1em 0.1em 0.2em;
-  padding: 30px 10px 100px 10px;
+  background-color: rgb(27, 156, 146);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .soft-skills1 {
-  font-size: 25px;
-  transform: rotate(-90deg) translateX(-30px) translateY(-160px);
+  font-size: 28px;
+  padding: 20px;
 }
 .soft-skills2 {
-  font-size: 20px;
-  transform: translateX(-10px) translateY(-40px);
+  font-size: 35px;
+
+  padding: 20px;
 }
 .soft-skills3 {
-  font-size: 15px;
-  transform: translateX(40px) translateY(-30px);
+  font-size: 25px;
+
+  padding: 20px;
 }
 
 .soft-skills4 {
-  font-size: 21px;
-  transform: translateX(30px) translateY(-20px);
+  font-size: 20px;
+
+  padding: 20px;
 }
 .soft-skills5 {
-  font-size: 20px;
-  transform: rotate(-90deg) translateX(80px) translateY(180px);
+  font-size: 30px;
+  padding: 20px;
 }
 
 .soft-skills6 {
-  font-size: 15px;
-  transform: translateX(130px) translateY(-250px);
+  font-size: 25px;
+  padding: 20px;
 }
 .footer {
   width: 100vw;
@@ -347,4 +360,14 @@
 .logosimple {
   width: 130px;
   position: absolute;
+}
+.field3 {
+  position: absolute;
+  text-transform: uppercase;
+  margin: 900px 0px 0px -199px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: montserrat alternates;
+  transform: rotate(-90deg);
+  color: rgb(45, 44, 44);
 }

@@ -3,6 +3,7 @@ import React from "react";
 const Education = () => {
   return (
     <div id="section-know-me-better" className="education">
+      <h2 className="field3"> Know me better</h2>
       <div className="education-1">
         Bootcamp, Front-end Developer - Adalab Promo M 2021
       </div>
