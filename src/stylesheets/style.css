@@ -84,31 +84,32 @@
 }
 .section-3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
 }
 .projects {
-  margin: 50px 20px 100px 200px;
+  margin: 30px;
+  padding: 80px;
   display: grid;
   text-align: center;
   align-items: center;
-  padding: 55px 55px 55px 55px;
   background-color: rgba(255, 255, 255, 0.557);
-  width: 400px;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 3rem;
+  width: 70%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   border-radius: 20px;
   font-weight: 300;
 }
-.workteam {
-  margin: 50px 200px 100px 40px;
+/* .workteam {
+  margin: 50px;
   background-color: rgb(252, 252, 252);
-  width: 400px;
+  width: 70%;
   height: 600px;
   color: grey;
   border-radius: 20px;
   font-weight: 300;
-}
+} */
 
 .profile-emoji {
   font-size: 20px;
@@ -117,7 +118,7 @@
 .field1 {
   position: absolute;
   text-transform: uppercase;
-  margin: 200px 0px 0px 100px;
+  margin: 160px 0px 0px -1100px;
   font-size: 20px;
   font-weight: 600;
   font-family: montserrat alternates;
@@ -126,10 +127,10 @@
 .field2 {
   position: absolute;
   text-transform: uppercase;
-  margin: 200px 0px 0px 765px;
+  margin: 650px 0px 0px -170px;
   font-size: 20px;
-  font-weight: 600;
   font-family: montserrat alternates;
+  font-weight: 600;
   transform: rotate(-90deg);
 }
 
@@ -143,104 +144,84 @@
 .pokemon,
 .netflix,
 .anonimus,
-.random {
+.random,
+.yummin {
   border-radius: 200px;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
-.yummin {
-  width: 100px;
-}
 .ohmyworld {
   width: 104px;
 }
 
 .heroku {
-  width: 80px;
+  width: 50px;
   margin-top: 70px;
 }
 
 .marcelafoto {
-  width: 96px;
+  width: 120px;
   border-radius: 250px;
-}
-
-.field3 {
-  text-transform: uppercase;
-  margin: 50px 0px 0px 0px;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: montserrat alternates;
-
-  color: rgb(68, 103, 15);
-}
-
-.extraback {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  width: 100vw;
-  background-color: rgb(247, 255, 253);
-  filter: opacity(0.4);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  box-shadow: 0 0 10px rgb(199, 232, 149), 0 0 5px rgb(214, 245, 172),
+    0 0 5px rgb(212, 243, 161);
 }
 
 .extra {
   display: flex;
+  justify-content: center;
   text-align: center;
   align-items: center;
   column-gap: 0px;
   width: 80%;
 }
+.extra-title {
+  text-transform: uppercase;
+  margin: 10px 0 70px 0;
+  font-family: montserrat alternates;
+  text-shadow: none;
+}
 
 .extra-1 {
-  width: 400px;
+  width: 500px;
+  height: 200px;
   background-color: rgb(4, 103, 78);
-  padding: 50px 10px 50px 10px;
+  padding: 30px 10px 100px 10px;
 }
 
 .extra-2 {
-  width: 400px;
+  width: 500px;
+  height: 200px;
   background-color: rgb(48, 132, 138);
-  padding: 50px 20px 50px 20px;
-}
-
-.extra-3 {
-  width: 400px;
-  background-color: rgb(36, 179, 143);
-  padding: 50px 20px 50px 20px;
-}
-.extra-4 {
-  width: 400px;
-  background-color: rgb(164, 210, 101);
-  padding: 23px 30px 23px 30px;
-  color: green;
-  font-family: montserrat alternates;
+  text-shadow: rgb(191, 176, 176) 0.1em 0.1em 0.2em;
+  padding: 30px 10px 100px 10px;
 }
 
 .soft-skills1 {
-  font-size: 18px;
-  transform: rotate(-90deg) translateX(-50px) translateY(-100px);
+  font-size: 25px;
+  transform: rotate(-90deg) translateX(-30px) translateY(-160px);
 }
 .soft-skills2 {
-  font-size: 15px;
+  font-size: 20px;
   transform: translateX(-10px) translateY(-40px);
 }
 .soft-skills3 {
-  font-size: 10px;
+  font-size: 15px;
   transform: translateX(40px) translateY(-30px);
 }
 
 .soft-skills4 {
-  font-size: 17px;
+  font-size: 21px;
   transform: translateX(30px) translateY(-20px);
 }
 .soft-skills5 {
-  font-size: 11px;
-  transform: rotate(-90deg) translateX(-30px) translateY(100px);
+  font-size: 20px;
+  transform: rotate(-90deg) translateX(80px) translateY(180px);
+}
+
+.soft-skills6 {
+  font-size: 15px;
+  transform: translateX(130px) translateY(-250px);
 }
 .footer {
   width: 100vw;
@@ -289,7 +270,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 260px;
-  padding-top: 175px;
+  padding-top: 130px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

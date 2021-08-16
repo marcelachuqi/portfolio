@@ -1,9 +1,8 @@
 import React from "react";
 import Boxes from "./Boxes";
 import Profile from "./Profile";
-import Education from "./Education";
 import Projects from "./Projects";
-import Extra from "./Extra";
+import KnowMeBetter from "./KnowMeBetter";
 import Footer from "./Footer";
 import "../stylesheets/style.css";
 import "../stylesheets/boxes.css";
@@ -17,8 +16,7 @@ const App = () => {
       <Profile />
       <Boxes />
       <Projects />
-      <Education />
-      <Extra />
+      <KnowMeBetter />
       <Footer />
     </body>
   );

@@ -9,13 +9,15 @@ import etiqueta1 from "../image/etiqueta1.png";
 import nombrelogo from "../image/nombre-logo.png";
 import etiqueta2 from "../image/etiqueta2.png";
 import logosimple from "../image/logosimple2.png";
+import yummin from "../image/yumm-in.jpg";
+import yummin2 from "../image/yummin2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink, faCode, faComment } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
     <>
-      <div className="section-3" id="section-3-project">
+      <div className="section-3" id="section-project">
         <h2 className="field1"> My projects</h2>
         <div className="projects">
           <div>
@@ -84,72 +86,67 @@ const Projects = () => {
               <FontAwesomeIcon className="fa-solid" icon={faCode} />
             </a>
           </div>
-        </div>
-        <h2 className="field2">Team work</h2>
-        <div className="workteam">
-          <a href=" http://beta.adalab.es/project-promo-m-module-1-team-3/">
-            <section className="image">
-              <div className="back">
-                <div className="animation">
-                  <div>
-                    <img
-                      className="etiqueta1"
-                      src={etiqueta1}
-                      alt="etiqueta1"
-                      title="etiqueta1"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      className="nombre-logo"
-                      src={nombrelogo}
-                      alt="Logo eleven code"
-                      title="Logo Completo"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      className="etiqueta2"
-                      src={etiqueta2}
-                      alt="etiqueta2"
-                      title="etiqueta2"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      className="logosimple"
-                      src={logosimple}
-                      alt="Logo simple"
-                      title="Logo simple"
-                    />
-                  </div>
-                </div>
-              </div>
-            </section>
-          </a>
-          <h3 className="project-title">Eleven Code</h3>
-          <p> Gulp | Animation Css| Partials </p>
-
-          <a href="http://happi-painters.herokuapp.com/#/ ">
-            <img className="heroku" src={heroku} />
-          </a>
-          <h3 className="project-title">hAPpI Painters</h3>
-          <p>Backend | SQL</p>
-        </div>
-        {/* <div className="technical skills">
           <div>
-            <img className="rick-morty" src={rickmorty} />
-            <h3 className="project-title"> Rick and Morty </h3>
-            <p>A responsive website | Reactjs | Router | npm</p>
-
-            <a href="https://marcelachuqi.github.io/Rick-and-Morty/#/">
-              <FontAwesomeIcon className="fa-solid" icon={faLink} />{" "}
-            </a>
-            <a>
-              <FontAwesomeIcon className="fa-solid" icon={faCode} />
+            <img className="yummin" src={yummin2} />
+            <h3 className="project-title">Yumm-in! App</h3>
+            <p>UI|UX | naming | design and mockup with Sketch</p>
+            <a href={yummin}>
+              <FontAwesomeIcon className="fa-solid" icon={faLink} />
             </a>
           </div>
-          </div> */}
+
+          <h2 className="field2">Team work</h2>
+          <div>
+            <a href=" http://beta.adalab.es/project-promo-m-module-1-team-3/">
+              <section className="image">
+                <div className="back">
+                  <div className="animation">
+                    <div>
+                      <img
+                        className="etiqueta1"
+                        src={etiqueta1}
+                        alt="etiqueta1"
+                        title="etiqueta1"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        className="nombre-logo"
+                        src={nombrelogo}
+                        alt="Logo eleven code"
+                        title="Logo Completo"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        className="etiqueta2"
+                        src={etiqueta2}
+                        alt="etiqueta2"
+                        title="etiqueta2"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        className="logosimple"
+                        src={logosimple}
+                        alt="Logo simple"
+                        title="Logo simple"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </a>
+            <h3 className="project-title">Eleven Code</h3>
+            <p> Gulp | Animation Css| Partials </p>
+          </div>
+          <div>
+            <img className="heroku" src={heroku} />
+            <h3 className="project-title">hAPpI Painters</h3>
+            <p>Backend | SQL</p>
+            <a href="http://happi-painters.herokuapp.com/#/ "></a>
+          </div>
+        </div>
       </div>
     </>
   );

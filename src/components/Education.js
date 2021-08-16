@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="education">
+    <div id="section-know-me-better" className="education">
       <div className="education-1">
         Bootcamp, Front-end Developer - Adalab Promo M 2021
       </div>
