@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "./static/css/main.81326099.chunk.css",
-    "main.js": "./static/js/main.7621e7e1.chunk.js",
-    "main.js.map": "./static/js/main.7621e7e1.chunk.js.map",
+    "main.css": "./static/css/main.4cbf7686.chunk.css",
+    "main.js": "./static/js/main.cf822335.chunk.js",
+    "main.js.map": "./static/js/main.cf822335.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.16a2318b.js",
     "runtime-main.js.map": "./static/js/runtime-main.16a2318b.js.map",
-    "static/js/2.b381ff9b.chunk.js": "./static/js/2.b381ff9b.chunk.js",
-    "static/js/2.b381ff9b.chunk.js.map": "./static/js/2.b381ff9b.chunk.js.map",
+    "static/js/2.f96f92eb.chunk.js": "./static/js/2.f96f92eb.chunk.js",
+    "static/js/2.f96f92eb.chunk.js.map": "./static/js/2.f96f92eb.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.81326099.chunk.css.map": "./static/css/main.81326099.chunk.css.map",
-    "static/js/2.b381ff9b.chunk.js.LICENSE.txt": "./static/js/2.b381ff9b.chunk.js.LICENSE.txt",
+    "static/css/main.4cbf7686.chunk.css.map": "./static/css/main.4cbf7686.chunk.css.map",
+    "static/js/2.f96f92eb.chunk.js.LICENSE.txt": "./static/js/2.f96f92eb.chunk.js.LICENSE.txt",
     "static/media/CV.07547351.jpg": "./static/media/CV.07547351.jpg",
-    "static/media/Original.39499992.svg": "./static/media/Original.39499992.svg",
     "static/media/anonimus.9c71fcde.jpeg": "./static/media/anonimus.9c71fcde.jpeg",
-    "static/media/style.css": "./static/media/ico-menu.b62d5b90.svg",
+    "static/media/style.css": "./static/media/marcelafoto.732345d1.png",
     "static/media/logosimple2.d94beb62.png": "./static/media/logosimple2.d94beb62.png",
-    "static/media/marcelafoto.732345d1.png": "./static/media/marcelafoto.732345d1.png",
     "static/media/netflix.1c6aea3c.png": "./static/media/netflix.1c6aea3c.png",
     "static/media/nombre-logo.3f200ef3.png": "./static/media/nombre-logo.3f200ef3.png",
     "static/media/pokemon.ca5d2b9a.png": "./static/media/pokemon.ca5d2b9a.png",
     "static/media/random.5b585124.png": "./static/media/random.5b585124.png",
     "static/media/rick_morty.b6716668.png": "./static/media/rick_morty.b6716668.png",
-    "static/media/yumm-in.c15a8063.jpg": "./static/media/yumm-in.c15a8063.jpg"
+    "static/media/yumm-in.c15a8063.jpg": "./static/media/yumm-in.c15a8063.jpg",
+    "static/media/yummin2.59fadbad.jpg": "./static/media/yummin2.59fadbad.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.16a2318b.js",
-    "static/js/2.b381ff9b.chunk.js",
-    "static/css/main.81326099.chunk.css",
-    "static/js/main.7621e7e1.chunk.js"
+    "static/js/2.f96f92eb.chunk.js",
+    "static/css/main.4cbf7686.chunk.css",
+    "static/js/main.cf822335.chunk.js"
   ]
 }
